@@ -39,7 +39,12 @@
 			<artifactId>matsim</artifactId>
 			<version>${matsim.version}</version>
 		</dependency>
-
+		<!--to get ExamplesUtils: -->
+		<dependency>
+			<groupId>org.matsim</groupId>
+			<artifactId>matsim-examples</artifactId>
+			<version>${matsim.version}</version>
+		</dependency>
 		<!-- the following dependencies show how to use MATSim contributions. For
 			a list of available contribs, see http://matsim.org/extensions -->
 		<dependency>
